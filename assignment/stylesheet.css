@@ -1,0 +1,31 @@
+header {
+    background-color: green;
+    color: #fff;
+}
+
+h2 {
+    background-color: #007a00;
+    color: white;
+}
+
+img {
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 205px;
+    height: 180px;
+    border: 1px dashed green;
+    border-radius: 50%;
+}
+
+h3 {
+    background-color: salmon;
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
