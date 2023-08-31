@@ -1,19 +1,21 @@
 header {
-    background-color: green;
+    background-color: #87CEEBf8;
     color: #fff;
     text-align: center;
     padding: 10px;
 }
 
 body {
-    background-color: lightgray !important;
+    background-color: white !important;
 }
 
 h2:first-of-type {
-    background-color: #007a00aa;
+    background-color: #87CEEB91;
     color: white;
-    padding: 10px;
+    padding: 25px;
+    margin: 1rem auto 0 auto;
     border: 1px dashed salmon;
+    /* border-radius: 50%; */
 }
 
 img {
@@ -21,11 +23,11 @@ img {
     left: 0;
     top: 0;
     bottom: 0;
-    margin: auto;
+    margin: 1rem auto;
     width: 205px;
     height: 180px;
-    border: 1px dashed green;
-    box-shadow: 10px 5px 5px lightgreen;
+    border: 1px dashed white;
+    box-shadow: 10px 5px 5px #87CEEBf8;
     border-radius: 50%;
 }
 
@@ -34,16 +36,14 @@ h3 {
     color: white;
     width: 300px;
     height: auto;
-    margin: 1em auto;
-    border: 1px dashed rgba(255, 255, 255, .75);
+    margin: 0 auto 1rem auto;
+    border: none;
 }
 
 .main {
-    border: 2px darkgray;
+    border: 2px #87CEEBf8;;
     border-style: groove double;
-    background-image: url("background-img.JPG");
-    background-position: center;
-    background-size: cover;
+    background-color: #fa8072ff;
     margin: 5rem;
 }
 
